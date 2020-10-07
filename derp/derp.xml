@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="derp/remove.xml" />
+
+  <!-- DerpFest Repos -->
+  <!-- General -->
+  <project path="art" name="art" remote="derp" />
+  <project path="bionic" name="bionic" remote="derp" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
+  <project path="manifest" name="manifest" remote="derp" />
+
+  <!-- Build -->
+  <project path="build/blueprint" name="build_blueprint" remote="derp" />
+  <project path="build/make" name="build" remote="derp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="derp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="derp" />
+  <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="derp" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="derp" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="derp" revision="11-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
+
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
+  <project path="external/connectivity" name="external_connectivity" remote="derp" />
+  <project path="external/guice" name="external_guice" remote="derp" />
+  <project path="external/json-c" name="external_json-c" remote="derp" />
+  <project path="external/libcxx" name="external_libcxx" remote="derp" />
+  <project path="external/perfetto" name="external_perfetto" remote="derp" />
+  <project path="external/selinux" name="external_selinux" remote="derp" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="derp" />
+  <project path="external/zlib" name="external_zlib" remote="derp" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/native" name="frameworks_native" remote="derp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
+
+  <!-- Hardware -->
+  <project path="hardware/derp/interfaces" name="hardware_derp_interfaces" remote="derp" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="derp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="derp" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="derp" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="derp" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="derp" >
+    <!-- add guard for AOSP hardware/qcom dir > -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /-->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <!--linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" /-->
+    <!--linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /-->
+  </project>
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="derp" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="derp" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" remote="derp" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="derp" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="derp" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="derp" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="derp" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="derp" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="derp" revision="11-caf" />
+  <project path="hardware/ril" name="hardware_ril" remote="derp" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="derp" />
+  <project path="packages/apps/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="derp" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="derp" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
+
+  <!-- System -->
+  <project path="system/bt" name="system_bt" remote="derp" />
+  <project path="system/core" name="system_core" remote="derp" />
+  <project path="system/incremental_delivery" name="system_incremental_delivery" remote="derp" />
+  <project path="system/libufdt" name="system_libufdt" remote="derp" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="derp" />
+  <project path="system/netd" name="system_netd" remote="derp" />
+  <project path="system/update_engine" name="system_update_engine" remote="derp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="derp" />
+  <project path="system/vold" name="system_vold" remote="derp" />
+
+  <!-- Tools -->
+  <project path="tools/metalava" name="tools_metalava" remote="derp" />
+
+  <!-- Vendor -->
+  <project path="vendor/derp" name="vendor_derp" remote="derp" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
+  <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="derp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="derp" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="derp" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="derp" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="derp" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="derp" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="derp" />
+</manifest>

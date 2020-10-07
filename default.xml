@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="derp"
+          fetch="https://github.com/DerpFest-11"
+          revision="refs/heads/11" />
+
+  <remote name="derp-gitlab"
+          fetch="https://gitlab.com/DerpFest" />
+
+  <remote name="devices"
+          fetch="https://github.com/DerpFest-Devices"
+          revision="refs/heads/11" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-18.0" />
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-11.0.0_r5"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -824,5 +845,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- DerpFest Additions -->
+  <include name="derp/derp.xml" />
+  <include name="derp/lineage.xml" />
 
 </manifest>

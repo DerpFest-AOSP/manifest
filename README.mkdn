@@ -1,0 +1,48 @@
+DerpFest
+==============
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the DerpFest trees, use a command like this:
+
+```bash
+repo init -u git://github.com/DerpFest-11/manifest.git -b 11
+```
+Then to sync up:
+```bash
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+
+Building the source
+---------------
+
+The source at DerpFest is well configured for building.
+
+```bash
+. build/envsetup.sh
+lunch derp_hotdog-userdebug
+mka derp
+```
+
+## Thanks section ##
+
+Here's my thanks to people who made this possible:
+
+* AICP
+* AOSiP
+* AOSPA
+* BootleggersROM
+* CrDroid
+* CyanogenMod/LineageOS
+* DirtyUnicorns
+* NitrogenOS
+* OmniROM
+* PixelExperience
+* Pixeldust Project
+* POSP
+* RevengeOS
+* YAAP
