@@ -13,6 +13,10 @@
   <remote name="derp-gitlab"
           fetch="https://gitlab.com/DerpFest" />
 
+  <remote name="syberia-bb"
+          fetch="https://bitbucket.org/syberia-project"
+          revision="refs/heads/11.0" />
+
   <remote name="devices"
           fetch="https://github.com/DerpFest-Devices"
           revision="refs/heads/11" />
