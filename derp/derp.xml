@@ -34,6 +34,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
 
   <!-- External -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
   <project path="external/connectivity" name="external_connectivity" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
@@ -106,12 +107,17 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="derp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
+
+  <!-- Platform -->
+  <project path="platform_testing" name="platform_testing" remote="derp" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
