@@ -53,6 +53,10 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
 
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" revision="master" clone-depth="1" />
+
   <!-- Hardware -->
   <project path="hardware/derp/interfaces" name="hardware_derp_interfaces" remote="derp" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
