@@ -59,6 +59,7 @@
 
   <!-- Hardware -->
   <project path="hardware/derp/interfaces" name="hardware_derp_interfaces" remote="derp" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="derp" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="derp" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="derp" />
