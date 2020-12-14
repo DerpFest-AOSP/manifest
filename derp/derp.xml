@@ -44,6 +44,7 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="derp" />
   <project path="external/zlib" name="external_zlib" remote="derp" />
 
