@@ -64,6 +64,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
