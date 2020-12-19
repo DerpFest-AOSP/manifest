@@ -113,7 +113,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="derp" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
