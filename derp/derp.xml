@@ -138,6 +138,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="derp" />
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
@@ -155,6 +156,7 @@
   <project path="system/vold" name="system_vold" remote="derp" />
 
   <!-- Tools -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="derp" />
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
