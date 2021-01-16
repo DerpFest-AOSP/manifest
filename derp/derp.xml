@@ -139,6 +139,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="derp" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="derp" />
   <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="eleven" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
