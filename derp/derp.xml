@@ -7,6 +7,7 @@
   <project path="art" name="art" remote="derp" />
   <project path="bionic" name="bionic" remote="derp" />
   <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
+  <project path="libcore" name="libcore" remote="derp" />
   <project path="manifest" name="manifest" remote="derp" />
 
   <!-- Build -->
