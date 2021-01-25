@@ -38,6 +38,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="derp" />
   <project path="external/connectivity" name="external_connectivity" remote="derp" />
+  <project path="external/cpu_features" name="external_cpu_features" remote="derp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="derp" />
   <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
@@ -48,6 +49,7 @@
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
+  <project path="external/scudo" name="external_scudo" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" remote="derp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="derp" />
@@ -168,6 +170,7 @@
   <project path="system/core" name="system_core" remote="derp" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="derp" />
   <project path="system/libufdt" name="system_libufdt" remote="derp" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="derp" />
   <project path="system/media" name="system_media" remote="derp" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="derp" />
   <project path="system/netd" name="system_netd" remote="derp" />

@@ -32,6 +32,7 @@
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
@@ -41,6 +42,7 @@
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinyalsa" />
@@ -115,6 +117,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
