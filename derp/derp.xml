@@ -37,6 +37,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="derp" />
   <project path="external/connectivity" name="external_connectivity" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
