@@ -13,6 +13,10 @@
   <remote name="derp-gitlab"
           fetch="https://gitlab.com/DerpFest" />
 
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
   <remote name="devices"
           fetch="https://github.com/DerpFest-Devices"
           revision="refs/heads/11" />
