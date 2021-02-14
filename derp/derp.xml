@@ -119,6 +119,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="derp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="derp" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
