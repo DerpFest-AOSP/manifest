@@ -125,7 +125,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" />
