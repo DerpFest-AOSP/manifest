@@ -44,7 +44,6 @@
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" remote="derp" />
