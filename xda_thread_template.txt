@@ -1,0 +1,212 @@
+Title: [ROM][11.0][Beta] DerpFest R for **YOUR DEVICE** [UN/OFFICIAL][**CODENAME**]
+----------------------------
+
+[CENTER][IMG width="850px"]https://i.imgur.com/BuIx4Um.jpg[/IMG]
+
+
+[SIZE=4]This is a small project based on AOSP. We try to be a platform for beginners and support the Custom ROM community with our own unique contributions as well. This ROM exists thanks to inspiration of AOSiP, Thank you! #StayDerped[/SIZE]
+
+[CODE]/* Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features included in this ROM
+* before flashing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+*/[/CODE]
+
+[SIZE=4][B][U]Features[/U][/B][/SIZE]
+
+[B]GApps included![/B]
+
+- Signed with release keys like stock
+- Google network stack
+- Google PSU support
+- Google APN's and CarrierConfig
+- Accent color, font, icon shape, icon pack customizations from Bootleggers
+- Statusbar icons tuner
+- App lock
+- Face unlock
+- Expandable volume panel
+- Omni weather
+- Gvisual Mod
+- Advanced gesture navigation options
+- FOD icon picker and wallpaper based color option
+- FOD Animations
+- Custom logo customizations
+- Custom Carrier Label & Carrier Label Placement
+- AOD Schedule options
+- 3 finger swipe to screenshot
+- Cycle through ringer modes
+- Adaptive playback
+- Long press power button to toggle flashlight
+- Long press volume button to skip track
+- Advanced reboot options
+- Additional lockscreen sclocks
+- QS tile styles
+- Switch styles
+- Custom QS headers
+- Edge light options
+- Battery light toggle
+- Scrolling screenshot (Asus stitchimage)
+- Battery icon styles (circle/bar/hidden)
+- QS quick pulldown
+- Bunch of useful QS tiles in addition to AOSP ones:
+  - AOD
+  - Caffeine
+  - Data Switch
+  - Location modes
+  - HeadsUp (peek notifications)
+  - Kill app
+  - Weather
+  - USB tethering
+  - Screenshot (partial/full)
+  - Sound (ringer modes)
+  - Sound search
+  - Reboot (system/recovery)
+  - Mono/Stereo
+- Notifications clear all button
+- OOS-inspired QS tiles layout
+- Data usage under QS
+- Small oreo-like data type icon
+- Traffic indicator for wifi and mobile data
+- OOS-inspired Network speed indicator
+- VoLTE/VoWiFi multi-sim icon
+- Lockscreen media art and blur level controls
+- Improved statusbar pulldown blur
+- Added blur to power menu
+- Double tap to sleep on statusbar, launcher, lockscreen
+- Finer control over font size
+- Mini panels for wifi, bluetooth, NFC
+- Per-app network restrictions
+- Allow hotspot/tethering to use VPN (toggleable)
+- Additional charging info on lockscreen
+- Statusbar bluetooth battery level
+- NFC tile for devices with nfc
+- Multi SIM ringtone setting
+- Screen recorder stop dot and low quality options
+- Bring back 2 button navigation from pie
+- Delete button for screenshots
+- Show 3 QS columns when media player is inactive
+- Faster fingerprint wakeup
+- Pixel offline charging animation (for supported devices)
+- Enabled iorap and zygote preforking (for faster app launch)
+- One click to add/remove QS tiles
+- Hacks to bypass safetynet and root detection
+- Few pixel features like assist disclosure, live captions, adaptive connectivity
+- Optimizations and fixes from AOSPA, ProtonAOSP & upstream AOSP master
+
+- CAF functionality improvements/enhancements:
+  - Bluetooth A2DP hardware offload
+  - Audio policy extensions
+  - Camera extensions
+  - Telephony framework
+  - Individual sim toggle (for some dualsim devices)
+  - WiFi display/miracast
+  - Hardware accelerated screen recording
+  - NQ NFC support (for nfc supported devices)
+  - Power off alarm in inbuilt clock app
+  - Touch response optimizations
+  - Performance improvements & fixes throughout the system
+
+[SIZE=4][B][U]Device-specific features[/U][/B][/SIZE]
+**INCLUDE DEVICE SPECIFIC FEATURES HERE**
+
+[SIZE=4][B][U]What's broken?[/U][/B][/SIZE]
+**INCLUDE DEVICE SPECIFIC BUGS HERE**
+You tell me!
+
+[IMG width="545px"]https://i.imgur.com/IYoyzLd.png[/IMG]
+
+[SIZE=4][B]ROM[/B]: [URL]https://sourceforge.net/projects/derpfest/files/**CODENAME**/[/URL]
+[B]Magisk: [/B][URL unfurl="false"]https://github.com/topjohnwu/Magisk/releases[/URL][/SIZE]
+**ADD MORE DOWNLOADS IF NECESSARY*
+
+[B][U][SIZE=4]INSTRUCTIONS[/SIZE][/U][/B]
+Reboot to recovery
+Wipe data, cache, and dalvik if coming from another ROM
+Flash ROM zip
+(optional) Flash Magisk
+Format data if encrypted
+Reboot and voila!
+
+[B][U]Upgrading to a Newer Build[/U][/B]
+Reboot to recovery
+Wipe cache and dalvik
+Flash ROM zip
+(optional) Flash Magisk
+Reboot and voila!
+
+[B]Screenshots in post #2
+
+[SIZE=4]Follow us on [/SIZE][/B][URL='https://t.me/derpfestupdates'][B][SIZE=4]Telegram[/SIZE][/B][/URL]
+
+[/CENTER]
+
+Credit/Thanks:
+
+[HIDE]
+
+Google for Android and AOSP
+
+LineageOS
+
+AOSiP
+
+AICP
+
+ABC ROM
+
+AquariOS
+
+BootleggersROM
+
+PixelExperience
+
+OmniROM
+
+Cory Collins
+
+---------
+
+Any others we may have forgotten to credit
+
+And last but not the least, all our testers, who have helped us to squash many bugs so that we can try to release builds that as are flawless as possible[/HIDE]
+
+[HIDE][/HIDE]
+
+
+
+[PLAIN]XDA:DevDB Information[/PLAIN]
+
+DerpFest, ROM for the **YOUR DEVICE**
+
+
+
+Contributors [user=5974762]@NurKeinNeid[/user]
+
+ROM source: [URL]https://github.com/DerpFest-11/[/URL]
+Device sources: [URL]https://github.com/DerpFest-Devices/[/URL]
+Kernel source: [URL]**INSERT KERNEL SOURCE LINK HERE**[/URL]
+
+
+
+ROM OS Version: 11.x
+
+ROM Kernel: **FOR YOUR DEVICE**
+
+ROM Firmware Required: **FOR YOUR DEVICE**
+
+Based On: AOSP
+
+
+
+Version Information
+
+Status: Beta
+
+
+
+Created 2021-xx-xx
+
+Last Updated 2021-xx-xx
