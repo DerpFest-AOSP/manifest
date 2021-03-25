@@ -35,12 +35,13 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
 
   <!-- External -->
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
-  <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="derp" />
   <project path="external/connectivity" name="external_connectivity" remote="derp" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="derp" />
   <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
@@ -168,11 +169,12 @@
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="derp" />
   <project path="system/libufdt" name="system_libufdt" remote="derp" />
   <project path="system/media" name="system_media" remote="derp" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="derp" />
+  <project path="system/netd" name="system_netd" remote="derp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="derp" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="derp" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="derp" />
-  <project path="system/netd" name="system_netd" remote="derp" />
   <project path="system/update_engine" name="system_update_engine" remote="derp" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="derp" />
   <project path="system/vold" name="system_vold" remote="derp" />
 
   <!-- Tools -->
