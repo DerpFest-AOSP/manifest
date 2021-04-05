@@ -125,6 +125,7 @@
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
+  <project path="packages/apps/Plugins" name="packages_apps_PotatoPlugins" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
