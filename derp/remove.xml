@@ -88,7 +88,6 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/platform_testing" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
