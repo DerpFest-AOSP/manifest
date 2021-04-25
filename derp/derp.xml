@@ -171,17 +171,13 @@
   <project path="vendor/derp" name="vendor_derp" remote="derp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="derp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="derp" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="derp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="derp" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="derp" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="derp" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="derp" />
-  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="derp" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="derp" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="derp" />
 </manifest>
