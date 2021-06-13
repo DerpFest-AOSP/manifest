@@ -56,6 +56,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
   <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
