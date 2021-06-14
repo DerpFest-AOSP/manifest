@@ -25,6 +25,10 @@
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-18.1" />
 
+  <remote name="dot"
+          fetch="https://github.com/DotOS/"
+          revision="refs/heads/dot11-caf-msm8996" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
