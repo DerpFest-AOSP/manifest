@@ -134,6 +134,7 @@
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="derp" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="derp" />
