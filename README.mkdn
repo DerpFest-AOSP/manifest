@@ -32,17 +32,25 @@ mka derp
 
 Here's my thanks to people who made this possible:
 
+* 10X OS
+* ABC
 * AICP
 * AOSiP
 * AOSPA
+* ArrowOS
 * BootleggersROM
 * CrDroid
 * CyanogenMod/LineageOS
 * DirtyUnicorns
+* Evolution X
+* exTHmUI
 * NitrogenOS
 * OmniROM
 * PixelExperience
 * Pixeldust Project
 * POSP
 * RevengeOS
+* ShapeShiftOS
+* Spark Os
+* Syberia Project
 * YAAP
