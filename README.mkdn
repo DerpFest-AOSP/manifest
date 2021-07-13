@@ -24,7 +24,7 @@ The source at DerpFest is well configured for building.
 
 ```bash
 . build/envsetup.sh
-lunch derp_hotdog-userdebug
+lunch derp_hotdog-user
 mka derp
 ```
 
