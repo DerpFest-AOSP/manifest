@@ -40,7 +40,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="derp" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="derp" />
   <project path="external/connectivity" name="external_connectivity" remote="derp" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
   <project path="external/guice" name="external_guice" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
