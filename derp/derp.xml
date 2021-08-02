@@ -167,6 +167,7 @@
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="derp" />
   <project path="system/libufdt" name="system_libufdt" remote="derp" />
   <project path="system/media" name="system_media" remote="derp" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="derp" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="derp" />
   <project path="system/netd" name="system_netd" remote="derp" />
   <project path="system/update_engine" name="system_update_engine" remote="derp" />
