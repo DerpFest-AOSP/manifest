@@ -37,10 +37,12 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />

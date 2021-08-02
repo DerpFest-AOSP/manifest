@@ -44,17 +44,19 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
+  <project path="external/openssh" name="external_openssh" remote="derp" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/scudo" name="external_scudo" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" remote="derp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="derp" />
-  <project path="external/zlib" name="external_zlib" remote="derp" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="derp" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
