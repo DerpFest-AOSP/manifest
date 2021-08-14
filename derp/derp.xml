@@ -121,6 +121,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="derp" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" remote="derp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="derp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
