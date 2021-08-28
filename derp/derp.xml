@@ -47,6 +47,7 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
+  <project path="external/libfuse" name="external_libfuse" remote="derp" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
   <project path="external/openssh" name="external_openssh" remote="derp" />
