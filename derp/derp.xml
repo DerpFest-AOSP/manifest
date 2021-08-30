@@ -51,6 +51,7 @@
   <project path="external/libfuse" name="external_libfuse" remote="derp" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
+  <project path="external/lz4" name="external_lz4" remote="derp" />
   <project path="external/openssh" name="external_openssh" remote="derp" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/scudo" name="external_scudo" remote="derp" />
