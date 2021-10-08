@@ -91,6 +91,9 @@
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" / -->
 
+  <!-- System -->
+  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
+
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
