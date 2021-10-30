@@ -196,7 +196,7 @@
   <!-- Vendor -->
   <project path="vendor/derp" name="vendor_derp" remote="derp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
-  <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
+  <project path="vendor/gms" name="old_vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="derp" />
