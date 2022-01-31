@@ -207,6 +207,7 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" groups="qcom,pdk-qcom" remote="derp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="derp" />
