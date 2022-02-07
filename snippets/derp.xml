@@ -166,6 +166,7 @@
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
   <project path="packages/apps/Ripple" name="packages_apps_Ripple" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="staging" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="github" revision="sc-qpr3" />
