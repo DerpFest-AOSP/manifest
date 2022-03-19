@@ -2,11 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"/>
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1101,6 +1104,10 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/derp.xml" />
+  <include name="snippets/lineage.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
