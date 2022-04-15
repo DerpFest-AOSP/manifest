@@ -122,6 +122,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libartpalette" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />

@@ -42,6 +42,7 @@
 
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="lineage" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
   <!--<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />-->
 
   <!-- Tools -->
