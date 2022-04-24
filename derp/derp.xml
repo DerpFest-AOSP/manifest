@@ -28,7 +28,6 @@
 
   <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="derp" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="derp" revision="11-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
@@ -53,7 +52,6 @@
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/scudo" name="external_scudo" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
-  <project path="external/sqlite" name="external_sqlite" remote="derp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="derp" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="derp" />
@@ -161,9 +159,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="derp" />
-  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="eleven" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
 
   <!-- System -->
