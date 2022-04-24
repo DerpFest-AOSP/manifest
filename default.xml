@@ -18,7 +18,7 @@
           revision="eleven" />
 
   <remote name="devices"
-          fetch="https://github.com/DerpFest-Devices"
+          fetch="ssh://git@github.com/DerpFest-Devices/"
           revision="refs/heads/11" />
 
   <remote name="lineage"
