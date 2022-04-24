@@ -29,6 +29,10 @@
           fetch="https://github.com/DotOS/"
           revision="refs/heads/dot11-caf-msm8996" />
 
+  <remote name="npv12"
+          fetch="https://gitlab.com/npv12/"
+          revision="11" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -865,5 +869,6 @@
   <!-- DerpFest Additions -->
   <include name="derp/derp.xml" />
   <include name="derp/lineage.xml" />
+  <include name="derp/derp_uncommon.xml"/>
 
 </manifest>

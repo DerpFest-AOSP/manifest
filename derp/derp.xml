@@ -29,7 +29,6 @@
   <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="derp" />
-  <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="derp" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="derp" revision="11-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
@@ -49,10 +48,8 @@
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
   <project path="external/libfuse" name="external_libfuse" remote="derp" />
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
   <project path="external/lz4" name="external_lz4" remote="derp" />
-  <project path="external/openssh" name="external_openssh" remote="derp" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/scudo" name="external_scudo" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
@@ -167,11 +164,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="eleven" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang"
-    remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="derp" />
@@ -194,7 +187,7 @@
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/derp" name="vendor_derp" remote="derp" />
+  <project path="vendor/derp" name="vendor_derp" remote="npv12" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/gms" name="old_vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="derp" />
