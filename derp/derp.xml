@@ -41,7 +41,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="derp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="derp" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="npv12" revision="11" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="derp" />
