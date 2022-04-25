@@ -12,7 +12,7 @@
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="derp" />
-  <project path="build/make" name="build" remote="derp" >
+  <project path="build/make" name="build_make" remote="npv12" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -58,12 +58,12 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="npv12" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="npv12" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="npv12" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
@@ -135,11 +135,11 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="derp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
-  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="npv12" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Plugins" name="packages_apps_PotatoPlugins" remote="derp" />
   <project path="packages/apps/SecureElement" name="packages_apps_SecureElement" remote="derp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="npv12" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
