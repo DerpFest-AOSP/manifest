@@ -33,6 +33,10 @@
           fetch="https://gitlab.com/npv12/"
           revision="11" />
 
+  <remote  name="aosp-old"
+           fetch="https://android.googlesource.com"
+           revision="refs/tags/android-11.0.0_r48" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -88,24 +92,24 @@
   <project path="device/generic/uml" name="device/generic/uml" groups="device,pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
-  <project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
-  <project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
-  <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="aosp-old"/>
+  <project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" remote="aosp-old"/>
+  <project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" remote="aosp-old"/>
+  <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" remote="aosp-old"/>
   <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
-  <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
-  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
+  <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" remote="aosp-old" />
+  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" remote="aosp-old"/>
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
-  <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
-  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" />
-  <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
-  <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
-  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
+  <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" remote="aosp-old"/>
+  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" remote="aosp-old"/>
+  <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" remote="aosp-old"/>
+  <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" remote="aosp-old"/>
+  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" remote="aosp-old"/>
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
@@ -133,7 +137,7 @@
   <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
   <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/adeb" name="platform/external/adeb" groups="pdk" />
+  <project path="external/adeb" name="platform/external/adeb" groups="pdk" remote="aosp-old"/>
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" />
@@ -574,12 +578,12 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250" />
-  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" >
+  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250" remote="aosp-old"/>
+  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" remote="aosp-old">
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250" />
+  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250" remote="aosp-old" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
