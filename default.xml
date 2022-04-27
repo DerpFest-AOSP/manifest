@@ -35,7 +35,7 @@
 
   <remote  name="aosp-new"
            fetch="https://android.googlesource.com"
-           revision="refs/tags/android-security-11.0.0_r51" />
+           revision="refs/tags/android-security-11.0.0_r52" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -46,6 +46,9 @@
            sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp"/>
+  <contactinfo bugurl="go/repo-bug" />
+
+  <superproject name="platform/superproject" remote="aosp" revision="android-security-11.0.0_r52" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
