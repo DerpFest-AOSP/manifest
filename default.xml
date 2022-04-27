@@ -30,7 +30,7 @@
           revision="refs/heads/dot11-caf-msm8996" />
 
   <remote name="npv12"
-          fetch="https://gitlab.com/npv12/"
+          fetch="ssh://git@gitlab.com/npv12/"
           revision="11" />
 
   <remote  name="aosp-new"
