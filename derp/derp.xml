@@ -131,7 +131,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="derp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="derp" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="derp" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="npv12" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="derp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
