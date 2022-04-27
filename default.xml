@@ -35,7 +35,7 @@
 
   <remote  name="aosp-new"
            fetch="https://android.googlesource.com"
-           revision="refs/tags/android-security-11.0.0_r49" />
+           revision="refs/tags/android-security-11.0.0_r51" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -291,7 +291,7 @@
   <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
   <project path="external/libaom" name="platform/external/libaom" groups="pdk" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
+  <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp-new"/>
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
@@ -306,7 +306,7 @@
   <project path="external/libepoxy" name="platform/external/libepoxy" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
+  <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp-new"/>
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" />
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" />
