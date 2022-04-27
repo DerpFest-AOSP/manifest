@@ -149,7 +149,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="derp" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="derp" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="npv12" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
