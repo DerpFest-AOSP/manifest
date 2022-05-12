@@ -59,6 +59,7 @@
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" groups="pdk" remote="derp" revision="12" />
   <project path="external/colorkt" name="external_colorkt" groups="pdk" remote="derp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="derp" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
   <project path="external/exfatprogs" name="external_exfatprogs" groups="pdk" remote="derp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="derp" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="12.1" />
