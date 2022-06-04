@@ -2,7 +2,6 @@
 
 DerpFest
 ---------------
-**This project is limited to Friends Of Carlotta. An invitation is required to make the source code available.**
 
 
 Getting Started
