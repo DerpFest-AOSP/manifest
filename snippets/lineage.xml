@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="lineage"
-           fetch="ssh://git@github.com/LineageOS"
+           fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-19.1" />
 
   <!-- Device -->
