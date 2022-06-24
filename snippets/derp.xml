@@ -167,6 +167,7 @@
   <project path="system/apex" name="system_apex" groups="pdk" remote="derp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="derp" />
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="derp" />
   <project path="system/libartpalette" name="system_libartpalette" groups="pdk" remote="derp" />
   <project path="system/logging" name="system_logging" groups="pdk" remote="derp" />
   <project path="system/media" name="system_media" groups="pdk" remote="derp" />
