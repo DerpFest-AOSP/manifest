@@ -2,21 +2,21 @@
 <manifest>
 
   <remote  name="github"
-           fetch="ssh://git@github.com/" />
+           fetch="https://github.com/" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
   <remote  name="derp"
-           fetch="ssh://git@github.com/DerpFest-12"
+           fetch="https://github.com/DerpFest-12"
            revision="12.1" />
 
   <remote  name="derp-devices"
-           fetch="ssh://git@github.com/DerpFest-Devices"
+           fetch="https://github.com/DerpFest-Devices"
            revision="12" />
 
   <remote  name="aex"
-           fetch="ssh://git@github.com/aex-tmp"
+           fetch="https://github.com/aex-tmp"
            revision="refs/heads/12.x" />
 
   <!-- DerpFest -->
