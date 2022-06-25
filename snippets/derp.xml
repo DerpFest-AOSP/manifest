@@ -66,6 +66,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="derp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="derp" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" groups="pdk" remote="derp" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="derp" />
   <project path="external/json-c" name="external_json-c" groups="pdk" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="derp" />
