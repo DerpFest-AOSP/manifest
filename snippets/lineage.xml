@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-20.0" />
+
+  <!-- External -->
+  <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />   
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-18.1" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+
+  <!-- Framework -->
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+
+  <!-- Hardware -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
+
+  <!-- LiveDisplay -->
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+
+  <!-- Packages -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+
+  <!-- System -->
+  <!--<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />-->
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+</manifest>
