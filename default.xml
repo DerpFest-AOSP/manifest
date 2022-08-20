@@ -7,7 +7,7 @@
           fetch="https://gitlab.com" />
 
   <remote name="derp"
-          fetch="https://github.com/DerpFest-11"
+          fetch="https://github.com/DerpFest-AOSP"
           revision="refs/heads/11" />
 
   <remote name="derp-gitlab"
@@ -18,7 +18,7 @@
           revision="eleven" />
 
   <remote name="devices"
-          fetch="ssh://git@github.com/npv12/"
+          fetch="https://github.com/DerpFest-Devices"
           revision="refs/heads/11" />
 
   <remote name="lineage"
@@ -28,10 +28,6 @@
   <remote name="dot"
           fetch="https://github.com/DotOS/"
           revision="refs/heads/dot11-caf-msm8996" />
-
-  <remote name="npv12"
-          fetch="ssh://git@gitlab.com/npv12/"
-          revision="11" />
 
   <remote  name="aosp-new"
            fetch="https://android.googlesource.com"
@@ -876,6 +872,5 @@
   <!-- DerpFest Additions -->
   <include name="derp/derp.xml" />
   <include name="derp/lineage.xml" />
-  <include name="derp/derp_uncommon.xml"/>
 
 </manifest>

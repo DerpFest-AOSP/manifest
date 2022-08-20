@@ -9,7 +9,7 @@ To get started with Android/DerpFest, you'll need to get familiar with [Source C
 To initialize your local repository using the DerpFest trees, use a command like this:
 
 ```bash
-repo init -u git@gitlab.com:npv12/manifest.git -b 11
+repo init -u git://github.com/DerpFest-AOSP/manifest.git -b 11
 ```
 Then to sync up:
 ```bash

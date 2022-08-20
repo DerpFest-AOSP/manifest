@@ -6,13 +6,13 @@
   <!-- General -->
   <project path="art" name="art" remote="derp" />
   <project path="bionic" name="bionic" remote="derp" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="npv12" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
   <project path="libcore" name="libcore" remote="derp" />
   <project path="manifest" name="manifest" remote="derp" />
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="derp" />
-  <project path="build/make" name="build_make" remote="npv12" >
+  <project path="build/make" name="build" remote="derp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -28,6 +28,8 @@
 
   <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="derp" />
+  <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="derp" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="derp" revision="11-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="derp" revision="11-vndr" />
@@ -40,30 +42,33 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="derp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="derp" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="npv12" revision="11" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="derp-gitlab" revision="11" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/guice" name="external_guice" remote="derp" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="derp" />
   <project path="external/json-c" name="external_json-c" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" remote="derp" />
   <project path="external/libfuse" name="external_libfuse" remote="derp" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="derp" />
   <project path="external/libpng" name="external_libpng" remote="derp" />
   <project path="external/lz4" name="external_lz4" remote="derp" />
+  <project path="external/openssh" name="external_openssh" remote="derp" />
   <project path="external/perfetto" name="external_perfetto" remote="derp" />
   <project path="external/scudo" name="external_scudo" remote="derp" />
   <project path="external/selinux" name="external_selinux" remote="derp" />
+  <project path="external/sqlite" name="external_sqlite" remote="derp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="derp" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="derp" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="npv12" />
-  <project path="frameworks/base" name="frameworks_base" remote="npv12" />
+  <project path="frameworks/av" name="frameworks_av" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="npv12" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="npv12" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
@@ -131,15 +136,15 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="derp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="derp" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="npv12" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="derp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
-  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="npv12" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Plugins" name="packages_apps_PotatoPlugins" remote="derp" />
   <project path="packages/apps/SecureElement" name="packages_apps_SecureElement" remote="derp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="npv12" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
@@ -147,9 +152,9 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="derp" />
-  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="npv12" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="npv12" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="derp" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
@@ -159,8 +164,14 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="derp" />
+  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="eleven" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang"
+    remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="derp" />
@@ -183,7 +194,7 @@
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/derp" name="vendor_derp" remote="npv12" />
+  <project path="vendor/derp" name="vendor_derp" remote="derp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/gms" name="old_vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="derp" />
