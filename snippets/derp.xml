@@ -157,7 +157,6 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="13" clone-depth="1" />
-  <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="derp-12" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="derp-12" />
   <!-- project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" groups="qcom,pdk-qcom" remote="derp" / -->
@@ -177,6 +176,5 @@
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="derp-12" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="derp-12" />
-  <project path="vendor/support" name="vendor_support" remote="derp" />
 
 </manifest>
