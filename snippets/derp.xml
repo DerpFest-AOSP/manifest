@@ -92,6 +92,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <!-- add guards for Pixel kernel modules -->
+    <linkfile src="os_pickup.bp" dest="kernel/google/gs101/private/google-modules/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" groups="qcom,legacy-qcom" remote="derp" revision="13" />
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,legacy-qcom" remote="derp" revision="13-caf-msm8996" />
