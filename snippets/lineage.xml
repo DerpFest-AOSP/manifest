@@ -41,6 +41,8 @@
 
    <!-- Pixel gs-common -->
   <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage" revision="lineage-21" />
+  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" remote="lineage-21" />
+  <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom,qcom_sm7250" remote="lineage-21" />
 
   <!-- LiveDisplay -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
