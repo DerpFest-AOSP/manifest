@@ -33,6 +33,8 @@
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
   <!-- Hardware -->
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
