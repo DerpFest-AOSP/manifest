@@ -111,6 +111,8 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Packages -->
