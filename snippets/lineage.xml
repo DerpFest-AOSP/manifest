@@ -8,6 +8,9 @@
   <!-- Rootdir -->
   <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
 
+  <!-- Device repos -->
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
@@ -28,6 +31,7 @@
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
   <!-- Hardware -->
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lineage" />

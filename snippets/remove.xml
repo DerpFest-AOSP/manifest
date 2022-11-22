@@ -72,6 +72,7 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -95,6 +96,7 @@
   <remove-project name="platform/frameworks/opt/timezonepicker" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/audio" />
