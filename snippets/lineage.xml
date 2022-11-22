@@ -10,6 +10,7 @@
 
   <!-- Device repos -->
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
+  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
 
   <!-- External -->
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
