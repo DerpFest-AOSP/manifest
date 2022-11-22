@@ -56,6 +56,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="13" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="derp" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="derp" />
