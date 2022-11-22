@@ -75,6 +75,8 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- External -->
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/gptfdisk" />
