@@ -164,6 +164,7 @@
   <project path="vendor/derp" name="vendor_derp" remote="derp">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
+  <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="13" clone-depth="1" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,qssi" remote="derp" />
