@@ -151,7 +151,6 @@
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="derp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="derp" />
-  <project path="system/logging" name="system_logging" groups="pdk" remote="derp" />
   <project path="system/media" name="system_media" groups="pdk" remote="derp" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="derp" />
   <project path="system/security" name="system_security" groups="pdk" remote="derp" />
