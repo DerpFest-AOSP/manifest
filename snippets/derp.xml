@@ -155,6 +155,7 @@
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="derp" />
   <project path="system/media" name="system_media" groups="pdk" remote="derp" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="derp" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="derp" />
   <project path="system/security" name="system_security" groups="pdk" remote="derp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="derp" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="derp" />
