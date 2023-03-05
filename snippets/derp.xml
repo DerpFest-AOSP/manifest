@@ -205,6 +205,7 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="12.1" clone-depth="1" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="derp" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="derp" />
