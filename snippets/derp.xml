@@ -162,6 +162,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="derp" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="derp" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/modules/NeuralNetworks" name="packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
@@ -173,6 +174,7 @@
   <!-- System -->
   <project path="system/apex" name="system_apex" groups="pdk" remote="derp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="derp" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" groups="pdk" remote="derp" />
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="derp" />
   <project path="system/libartpalette" name="system_libartpalette" groups="pdk" remote="derp" />
