@@ -115,6 +115,7 @@
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,sdm660" remote="derp" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="derp" revision="13-caf" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
+  <project path="hardware/lineage/interfaces" name="hardware_derp_interfaces" remote="derp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="derp" />
 
   <!-- Packages -->
