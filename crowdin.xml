@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="derp"
+          fetch="https://git@github.com/derpfest-aosp"
+          revision="13" />
+  <default remote="derp"
+           sync-c="true"
+           sync-j="4"  />
+  <project path="manifest" name="manifest" remote="derp" />
+  <project path="crowdin" name="crowdin" remote="derp" revision="master" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="derp" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="derp" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="derpfest" />
+</manifest>
