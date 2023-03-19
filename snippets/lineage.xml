@@ -83,6 +83,7 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
+  <project path="system/apex" name="android_system_apex" groups="pdk" remote="lineage" />
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
 
