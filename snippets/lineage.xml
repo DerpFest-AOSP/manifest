@@ -30,6 +30,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+  <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- Framework -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
