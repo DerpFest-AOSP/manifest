@@ -125,6 +125,7 @@
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk" remote="derp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="derp" />
