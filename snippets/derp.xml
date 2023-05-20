@@ -46,6 +46,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="derp" />
 
   <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
