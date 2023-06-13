@@ -153,7 +153,7 @@
   <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.85" />
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
