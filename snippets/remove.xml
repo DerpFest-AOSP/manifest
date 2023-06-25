@@ -86,13 +86,10 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
-  <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/zstd" />
 
   <!-- Frameworks -->

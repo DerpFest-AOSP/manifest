@@ -60,12 +60,9 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="13" />
-  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="derp" />
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="derp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="external/zlib" name="external_zlib" groups="pdk" remote="derp" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" />
