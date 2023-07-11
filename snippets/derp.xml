@@ -130,6 +130,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="derp" />
+  <project path="packages/apps/Panic" name="packages_apps_Panic" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="derp" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk-fs" remote="github" revision="main" />
