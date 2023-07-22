@@ -9,6 +9,7 @@
   <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
 
   <!-- Device repos -->
+  <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
 
