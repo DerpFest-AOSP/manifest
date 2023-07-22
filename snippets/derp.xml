@@ -86,6 +86,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm7250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm7250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
