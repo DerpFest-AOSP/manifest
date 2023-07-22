@@ -6,6 +6,7 @@
            revision="refs/heads/lineage-20.0" />
 
   <!-- Rootdir -->
+  <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
 
   <!-- Device repos -->
