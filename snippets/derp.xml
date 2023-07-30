@@ -117,11 +117,11 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="derp" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk" remote="derp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="derp" />
