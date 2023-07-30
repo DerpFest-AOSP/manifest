@@ -137,6 +137,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="derp" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/modules/Bluetooth/android/BtHelper" name="packages_modules_Bluetooth_android_BtHelper" groups="pdk-cw-fs,pdk-fs" remote="derp"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="derp" />
