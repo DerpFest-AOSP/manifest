@@ -172,6 +172,7 @@
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="13" clone-depth="1" />
   <project path="vendor/lawnicons" name="vendor_lawnicons" remote="derp" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="derp" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,qssi" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="derp" />
   <!-- project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" groups="qcom,pdk-qcom" remote="derp" / -->
