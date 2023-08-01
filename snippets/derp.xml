@@ -114,6 +114,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
   <project path="hardware/lineage/interfaces" name="hardware_derp_interfaces" remote="derp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="derp" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="derp" />
 
   <!-- Packages -->
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs" remote="derp" />
