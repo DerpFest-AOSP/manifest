@@ -29,6 +29,7 @@
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />   
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
