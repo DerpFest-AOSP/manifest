@@ -59,6 +59,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="13" />
+  <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="derp" />
   <project path="external/libxml2" name="external_libxml2" groups="pdk,libxml2" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="derp" />
   <project path="external/symphonica" name="external_Symphonica" remote="derp" clone-depth="1" />
