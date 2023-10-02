@@ -59,6 +59,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="13" />
+  <project path="external/libxml2" name="external_libxml2" groups="pdk,libxml2" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="derp" />
   <project path="external/symphonica" name="external_Symphonica" remote="derp" clone-depth="1" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="derp" />
@@ -166,6 +167,9 @@
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="derp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="derp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="derp" />
+
+  <!-- Tools -->
+  <project path="tools/apksig" name="tools_apksig" groups="pdk,tradefed" remote="derp" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />

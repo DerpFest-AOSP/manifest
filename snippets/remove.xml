@@ -96,6 +96,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
@@ -172,5 +173,8 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+
+  <!-- Tools -->
+  <remove-project name="platform/tools/apksig" />
 
 </manifest>
