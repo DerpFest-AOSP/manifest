@@ -8,6 +8,7 @@
   <!-- Rootdir -->
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
 
   <!-- Device repos -->
   <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" />
@@ -36,6 +37,7 @@
   <project path="external/webp" name="android_external_webp" groups="pdk,qcom_msm8x26" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
+  <project path="external/pdfium" name="android_external_pdfium" groups="pdk" remote="lineage" />
 
   <!-- Framework -->
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
