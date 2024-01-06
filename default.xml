@@ -2,13 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-14.0.0_r20"
            remote="aosp"
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r20"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r20" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -1259,7 +1263,6 @@
   <project path="tools/netsim" name="platform/tools/netsim" groups="pdk" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
-  <project path="tools/repohooks" name="platform/tools/repohooks"  groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed,sysui-studio" />
   <project path="tools/security" name="platform/tools/security" groups="pdk,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" />
@@ -1269,4 +1272,9 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/derp.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
