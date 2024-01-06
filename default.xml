@@ -2,11 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r6"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r6"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1411,4 +1412,8 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/remove.xml" />
+  <include name="snippets/derp.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
