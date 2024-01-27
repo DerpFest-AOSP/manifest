@@ -13,7 +13,7 @@ To set up your build environment and sync DerpFest, please follow this guide: [L
 **To initialize your local repository using the AOSP/CAF based DerpFest source, use a command like this:**
 
 ```bash
-repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14-pixel
 ```
 **Sync up with this command:**
 ```bash
