@@ -126,7 +126,6 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
