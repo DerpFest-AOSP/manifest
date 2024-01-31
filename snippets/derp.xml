@@ -159,6 +159,7 @@
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Panic" name="packages_apps_Panic" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="derp" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" />
