@@ -114,8 +114,6 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-    <!-- add guards for Pixel kernel modules -->
-    <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
   </project>
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="derp" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="derp" />
