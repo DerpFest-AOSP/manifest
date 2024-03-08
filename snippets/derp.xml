@@ -9,7 +9,7 @@
 
   <remote  name="derp"
            fetch="https://github.com/DerpFest-AOSP"
-           revision="14" />
+           revision="14-qpr1" />
 
   <remote  name="derp-devices"
            fetch="https://github.com/DerpFest-Devices"
