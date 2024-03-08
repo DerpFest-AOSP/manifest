@@ -3,19 +3,18 @@
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-21.0" />
+           revision="lineage-21.0" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/bash" name="android_external_bash" remote="lineage" />
-  <project path="external/cronet" name="android_external_cronet" groups="pdk" remote="lineage" />
-  <project path="external/htop" name="android_external_htop" remote="lineage" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
-  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" revision="846dbb2d61e119b9fd8faa0dfafe5a4f33bbd785" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="qcom,sdm660" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" revision="6e176b725fbae9db85a4ef5d04598264c637d47e" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="qcom,sdm660" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="fa22f5cec501b961afbfa0a15a64d52fa2d57e8c" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="qcom,sdm660" remote="lineage" />
+  <project path="external/bash" name="android_external_bash" revision="9f59ea3199a83697b4e1adcd4ac35484ac824c67" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" revision="a7cad314ca4607545f802dd47f700574f633564b" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" revision="2d87040ef56d93aa0ac4331fc3dfafdfdc5e9f8a" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="7471d6403640f1cd0878cc2c87279571a497bcb7" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" revision="cdb7e988d31d769ecfc20633467952528e0e5707" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
+  <project path="external/unrar" name="android_external_unrar" revision="33790f0663cc9e3323f0cd21cd8873301ed1cd79" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf-sm8450" />
