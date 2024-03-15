@@ -62,6 +62,7 @@
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="derp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="derp" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="derp" />
   <project path="external/libnl" name="external_libnl" groups="pdk" remote="derp" />
   <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="derp" />
