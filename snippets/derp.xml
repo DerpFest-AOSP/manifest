@@ -59,6 +59,7 @@
   <project path="external/avb" name="external_avb" groups="pdk" remote="derp" />
   <project path="external/cronet" name="external_cronet" groups="pdk" remote="derp" />
   <project path="external/dtc" name="external_dtc" groups="pdk" remote="derp" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="derp" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="derp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" />
