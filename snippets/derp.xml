@@ -153,18 +153,11 @@
 
   <!-- Packages -->
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="derp" />
-  <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/Panic" name="packages_apps_Panic" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="derp" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
-  <project path="packages/apps/Ripple" name="packages_apps_Ripple" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="github" revision="sc-qpr3" />
@@ -210,7 +203,6 @@
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="14" clone-depth="1" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" groups="qcom,qssi" remote="derp" />
@@ -229,7 +221,6 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" remote="derp" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" remote="derp" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" remote="derp" />
-  <project path="vendor/shishufied" name="vendor_shishufied" remote="derp" />
   <project path="vendor/support" name="vendor_support" remote="derp" />
 
 </manifest>
