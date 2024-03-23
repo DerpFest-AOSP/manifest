@@ -15,8 +15,8 @@
            fetch="https://github.com/DerpFest-Devices"
            revision="14" />
 
-  <remote  name="alex"
-           fetch="ssh://git@github.com/NurKeinNeid"
+  <remote  name="staging"
+           fetch="ssh://git@github.com/derp-staging"
            revision="14" />
 
   <!-- DerpFest -->
@@ -73,7 +73,7 @@
   <project path="external/zstd" name="external_zstd" remote="derp" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="staging" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="derp" />
@@ -152,13 +152,13 @@
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="derp" />
 
   <!-- Packages -->
-  <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="derp" />
+  <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="staging" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="staging" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="github" revision="sc-qpr3" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="derp" />
@@ -197,7 +197,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="derp">
+  <project path="vendor/derp" name="vendor_derp" remote="staging">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
