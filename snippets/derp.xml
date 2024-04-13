@@ -213,6 +213,7 @@
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
   <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="14" clone-depth="1" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" groups="qcom,qssi" remote="derp" />
