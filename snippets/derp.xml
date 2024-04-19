@@ -24,7 +24,7 @@
   <project path="art" name="art" groups="pdk" remote="derp" />
   <project path="bionic" name="bionic" groups="pdk" remote="derp" />
   <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="manifest" name="manifest" remote="derp" revision="14-420" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="derp" />
@@ -74,7 +74,7 @@
   <project path="external/zstd" name="external_zstd" remote="derp" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" revision="14-420" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="derp" />
@@ -154,14 +154,13 @@
 
   <!-- Packages -->
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="derp" />
-  <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" revision="14-420" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Panic" name="packages_apps_Panic" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="derp" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" />
@@ -207,7 +206,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="derp">
+  <project path="vendor/derp" name="vendor_derp" remote="derp" revision="14-420">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
