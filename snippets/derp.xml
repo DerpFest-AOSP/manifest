@@ -153,6 +153,7 @@
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="derp" />
 
   <!-- Packages -->
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="derp" />
   <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
