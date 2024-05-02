@@ -348,8 +348,8 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
-  <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" />
-  <project path="external/libdav1d" name="platform/external/libdav1d" groups="pdk" />
+  <project path="external/libgav1" name="platform/external/libgav1" revision="3a206b0238e7d0072ebfb6e11cc74f06b2933b44" groups="pdk" />
+  <project path="external/libdav1d" name="platform/external/libdav1d" revision="225ac741d9b2d09d5f1790bee0338af1b69f0b34" groups="pdk"/>
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
