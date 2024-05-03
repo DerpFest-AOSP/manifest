@@ -43,6 +43,7 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+  <project path="build/release" name="build_release" remote="derp" />
 
   <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
