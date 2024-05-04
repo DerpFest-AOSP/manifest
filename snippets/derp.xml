@@ -157,6 +157,7 @@
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="derp" />
   <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-fs" remote="derp" />
