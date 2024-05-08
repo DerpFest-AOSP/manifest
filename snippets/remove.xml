@@ -99,6 +99,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/webp" />
