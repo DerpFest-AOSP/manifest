@@ -58,6 +58,7 @@
   <!-- External -->
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" groups="qcom,qssi" remote="derp" />
   <project path="external/avb" name="external_avb" groups="pdk" remote="derp" />
+  <project path="external/calyx/datura" name="external_calyx_datura" groups="pdk" remote="derp" />
   <project path="external/dtc" name="external_dtc" groups="pdk" remote="derp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="derp" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="derp" />
@@ -191,6 +192,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="derp" clone-depth="1" />
   <project path="prebuilts/derp" name="prebuilts_derp" remote="derp" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.76" />
 
