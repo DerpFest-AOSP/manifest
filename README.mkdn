@@ -20,6 +20,15 @@ repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
+Checkout lfs objects
+---------------
+
+**Execute this code at vendor/gms in build directory before initiating build environment to prevent Ifs checkout errors:**
+```bash
+git lfs fetch && git lfs install && git lfs checkout
+```
+
+
 Building the source
 ---------------
 
