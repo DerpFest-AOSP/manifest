@@ -98,6 +98,8 @@
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <!--
@@ -146,9 +148,6 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom_audio" groups="qcom,lahaina" remote="derp" revision="14-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom_display" groups="qcom" remote="derp" revision="14-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom_media" groups="qcom,lahaina" remote="derp" revision="14-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" remote="derp" revision="14-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="derp" revision="14-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" name="hardware_qcom_display" groups="qcom"  remote="derp" revision="14-caf-sm8450" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,kailua-vendor" remote="derp" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,sdm660" remote="derp" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom,kailua-vendor" remote="derp" revision="14-caf" />
