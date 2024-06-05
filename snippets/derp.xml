@@ -147,6 +147,7 @@
   <project path="packages/modules/Bluetooth/android/BtHelper" name="packages_modules_Bluetooth_android_BtHelper" groups="pdk-cw-fs,pdk-fs" remote="derp"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
@@ -160,6 +161,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="derp" />
+  <project path="system/libfmq" name="system_libfmq" groups="pdk" remote="derp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="derp" />
   <project path="system/media" name="system_media" groups="pdk" remote="derp" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="derp" />
