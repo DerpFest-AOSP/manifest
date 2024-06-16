@@ -67,7 +67,8 @@
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="derp" />
   <project path="external/libnl" name="external_libnl" groups="pdk" remote="derp" />
   <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="derp" />
-  <project path="external/mksh" name="external_mksh" remote="derp" />  
+  <project path="external/mksh" name="external_mksh" remote="derp" />
+  <project path="external/robolectric" name="external_robolectric" groups="pdk" remote="derp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="derp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/webp" name="external_webp" groups="pdk,qcom_msm8x26" remote="derp" />

@@ -100,6 +100,7 @@
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/robolectric" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
