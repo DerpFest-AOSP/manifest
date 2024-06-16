@@ -178,7 +178,7 @@
   <project path="vendor/derp" name="vendor_derp" remote="derp">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
+  <project path="vendor/fontage" name="vendor_fontage" remote="derp" revision="14" />
   <project path="vendor/gms" name="DerpFest/13_vendor_gms" remote="gitlab" revision="13" clone-depth="1" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="derp" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
