@@ -44,6 +44,7 @@
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/camera" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
@@ -128,6 +129,10 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
