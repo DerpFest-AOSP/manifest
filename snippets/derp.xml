@@ -65,6 +65,9 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="derp" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="derp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="derp" revision="15-qpr1" />
+  <project path="external/kotlinc" name="external_kotlinc" groups="pdk" remote="derp" />
+  <project path="external/kotlinx.coroutines" name="external_kotlinx.coroutines" groups="pdk" remote="derp" />
+  <project path="external/kotlinx.serialization" name="external_kotlinx.serialization" groups="pdk" remote="derp" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="derp" />
   <project path="external/mksh" name="external_mksh" remote="derp" />
   <project path="external/robolectric" name="external_robolectric" groups="pdk" remote="derp" revision="15-qpr1" />
