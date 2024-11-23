@@ -20,7 +20,7 @@
   <project path="art" name="art" groups="pdk" remote="derp" revision="15-qpr1" />
   <project path="bionic" name="bionic" groups="pdk" remote="derp" revision="15-qpr1" />
   <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="derp" revision="15-qpr1" />
-  <project path="manifest" name="manifest" remote="derp" revision="15" />
+  <project path="manifest" name="manifest" remote="derp" revision="15-pixel" />
 
   <!-- Bootable -->
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" groups="pdk" remote="derp" />
@@ -48,7 +48,7 @@
   <project path="build/release" name="build_release" groups="pdk,tradefed" remote="derp" revision="15-qpr1" />
 
   <!-- Device -->
-  <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
+  <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" revision="15-pixel" />
   <project path="device/generic/common" name="device_generic_common" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,qssi" remote="derp" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" remote="derp" revision="15-legacy-um" />
@@ -80,8 +80,8 @@
   <project path="external/zstd" name="external_zstd" remote="derp" revision="15-qpr1" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" revision="15-qpr1" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
-  <project path="frameworks/derpfest" name="NurKeinNeid/frameworks_derpfest" remote="github" revision="15" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" revision="15-pixel" />
+  <project path="frameworks/derpfest" name="NurKeinNeid/frameworks_derpfest" remote="github" revision="15-pixel" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" revision="15-qpr1" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" revision="15-qpr1" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="derp" />
@@ -175,7 +175,7 @@
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" revision="15-qpr1" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
   <project path="packages/apps/Ripple" name="packages_apps_Ripple" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="derp" revision="15-pixel" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="derp" revision="15-qpr1" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="derp" revision="15-qpr1" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="derp" revision="15-qpr1" />
@@ -217,7 +217,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="derp">
+  <project path="vendor/derp" name="vendor_derp" remote="derp" revision="15-pixel">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
