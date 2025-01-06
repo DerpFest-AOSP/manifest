@@ -169,7 +169,7 @@
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="derp" revision="15-qpr1" />
   <project path="packages/apps/MikuUILyricsStubDummy" name="packages_apps_MikuUILyricsStubDummy" remote="derp" />
   <project path="packages/apps/Panic" name="packages_apps_Panic" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="staging" revision="15-qpr1" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="derp" revision="15-qpr1" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="derp" />
   <project path="packages/apps/Prospect" name="packages_apps_Prospect" remote="derp" />
   <project path="packages/apps/Ripple" name="packages_apps_Ripple" groups="pdk-fs" remote="derp" />
