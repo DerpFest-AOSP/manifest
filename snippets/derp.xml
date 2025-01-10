@@ -59,6 +59,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
   <project path="external/faceunlock" name="DerpFest/external_faceunlock" remote="gitlab" revision="13" />
+  <project path="external/giflib" name="external_giflib" groups="pdk" remote="derp" />
   <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="derp" />
   <project path="external/libxml2" name="external_libxml2" groups="pdk,libxml2" remote="derp" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="derp" />
