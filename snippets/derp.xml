@@ -222,7 +222,7 @@
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
   <project path="vendor/google/prebuilt" name="DerpFest/vendor_google_prebuilt" remote="gitlab" revision="15" />
   <project path="vendor/google/gms" name="DerpFest/vendor_google_gms" remote="gitlab" revision="15" clone-depth="1" />
-  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="derp" clone-depth="1" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="derp" revision="15-pixel" clone-depth="1" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="derp" />
   <project path="vendor/overlay" name="vendor_overlay" remote="derp" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="derp" />
