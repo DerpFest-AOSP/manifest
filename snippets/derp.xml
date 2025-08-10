@@ -181,6 +181,7 @@
   <project path="tools/apksig" name="tools_apksig" groups="pdk,tradefed" remote="derp" />
 
   <!-- Vendor -->
+  <project path="vendor/certification" name="android_vendor_certification" remote="derp" revision="16" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
   <project path="vendor/derp" name="vendor_derp" remote="derp">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
