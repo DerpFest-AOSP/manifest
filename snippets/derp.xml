@@ -126,6 +126,8 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="derp" />
 
   <!-- Packages -->
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
@@ -147,6 +149,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="derp" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="derp" />
+  <project path="packages/modules/CellBroadcastService" name="packages_modules_CellBroadcastService" groups="pdk" remote="derp" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Bluetooth/android/BtHelper" name="packages_modules_Bluetooth_android_BtHelper" groups="pdk-cw-fs,pdk-fs" remote="derp"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
