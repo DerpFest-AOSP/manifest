@@ -4,7 +4,11 @@
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-20.0" />
-
+  
+  <remote  name="morpheus"
+           fetch="https://github.com/norwloading"
+           revision="refs/heads/lineage-20.0" />
+  
   <!-- Rootdir -->
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
@@ -48,7 +52,7 @@
   <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" />
   <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="morpheus" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
@@ -77,7 +81,7 @@
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" groups="qcom"  remote="lineage" revision="lineage-20.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom_media" groups="qcom,waipio-vendor"  remote="lineage" revision="lineage-20.0-caf-sm8450" />
   <!-- LiveDisplay -->
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="morpheus" />
 
   <!-- NXP additions -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" groups="nxp" remote="lineage" />
@@ -86,7 +90,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" remote="lineage" />
-  <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="lineage" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="morpheus" />
   <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/NeuralNetworks" name="android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
