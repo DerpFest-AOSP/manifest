@@ -10,7 +10,10 @@
   <remote  name="derp"
            fetch="https://github.com/DerpFest-AOSP"
            revision="13" />
-
+  <remote  name="morpheus"
+           fetch="https://github.com/norwloading"
+           revision="13" />
+  
   <remote  name="derp-12"
            fetch="https://github.com/DerpFest-12"
            revision="12.1" />
@@ -25,9 +28,9 @@
 
   <!-- DerpFest -->
   <!-- Rootdir -->
-  <project path="art" name="art" groups="pdk" remote="derp" />
-  <project path="bionic" name="bionic" groups="pdk" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="art" name="art" groups="pdk" remote="morpheus" />
+  <project path="bionic" name="bionic" groups="pdk" remote="morpheus" />
+  <project path="manifest" name="manifest" remote="morpheus" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="derp" />
@@ -73,9 +76,9 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="morpheus" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="derp" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="morpheus" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="derp" />
 
   <!-- hardware repos -->
@@ -167,7 +170,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
 
   <!-- System -->
-  <project path="system/core" name="system_core" groups="pdk" remote="derp" />
+  <project path="system/core" name="system_core" groups="pdk" remote="morpheus" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="derp" />
   <project path="system/libfmq" name="system_libfmq" groups="pdk" remote="derp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="derp" />
@@ -175,7 +178,7 @@
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="derp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="derp" />
   <project path="system/security" name="system_security" groups="pdk" remote="derp" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="derp" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="morpheus" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="derp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="derp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="derp" />
